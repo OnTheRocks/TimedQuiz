@@ -1,5 +1,35 @@
 
+body {
+  background-color: seagreen;
+}
+
+.jumbotron {
+  border-radius: 5px;
+  box-shadow: 0 0 10px 2px;
+}
+
 .container {
-  margin-top:150px;
-  border: thin solid green;
+
+  margin-top: 100px;
+  
+}
+
+.btn-xlg {
+    padding: 18px 28px;
+    font-size: 32px;
+    border-radius: 8px;
+}
+
+.controls {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#startButton, #nextButton {  
+}
+
+.hide {
+  display: none;
 }

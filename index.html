@@ -10,7 +10,7 @@
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-<link rel="stylesheet" type="text/css" href="assets/css/style.css"></link>
+<link rel="stylesheet" type="text/css" href="./assets/css/style.css"></link>
 
 </head>
 <body>
@@ -19,12 +19,20 @@
     <div class="row justify-content-center">
       <div class="col-xl-12">
         <div class="jumbotron">
-
-          <h1 class="display-4">Hello, world!</h1>
-          <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
-          <hr class="my-4">
-          <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
-          <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+          <div id="questionContainer" class="hide">
+             <h1 class="display-4">Question</h1>                   
+              <hr class="my-4">
+              <div id="answerButtons" class="btn-grid">
+                <button type="button" class="btn btn-outline-secondary btn-block">Answer 1</button>
+                <button type="button" class="btn btn-outline-secondary btn-block">Answer 2</button>
+                <button type="button" class="btn btn-outline-secondary btn-block">Answer 3</button>
+                <button type="button" class="btn btn-outline-secondary btn-block">Answer 4</button>
+              </div>   
+          </div>
+          <div class="controls">
+              <button id="startButton" type="button" class="btn btn-outline-secondary btn-xlg startButton " >Start Quiz</button>
+              <button id="nextButton" type="button" class="btn btn-outline-secondary btn-xlg nextButton hide ">Next Question</button>
+          </div>
 
         </div>
       </div>
@@ -32,4 +40,4 @@
   </div>
 
 </body>
-</htm
+</html
