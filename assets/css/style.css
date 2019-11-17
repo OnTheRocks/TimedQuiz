@@ -10,25 +10,59 @@ body {
 
 .container {
 
-  margin-top: 100px;
+  margin-top: 25px;
   
 }
 
-.btn-xlg {
-    padding: 18px 28px;
-    font-size: 32px;
-    border-radius: 8px;
+.col-12 {
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0 0 10px 2px;
 }
 
-.controls {
-  padding: 20px;
+.timer {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-#startButton, #nextButton {  
+.btn-xlg {
+    padding: 18px 18px;
+    font-size: 25px;
+    border-radius: 8px;
 }
+
+.btn.correct {
+    color: green;
+    border: green;
+    box-shadow: 0 0 5px 2px green;
+    font-weight: bold;
+    
+    
+
+}
+
+.btn.wrong {
+    color: darkred;
+    border: darkred;
+    box-shadow: 0 0 5px 2px darkred;
+    font-weight: bold;
+  }
+
+
+h1 {
+  
+  display: flex;
+  justify-content: center;
+}
+
+.controls {
+  padding-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 
 .hide {
   display: none;

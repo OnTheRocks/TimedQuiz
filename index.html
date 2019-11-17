@@ -14,13 +14,25 @@
 
 </head>
 <body>
+
+    <div class="row justify-content-between">
+        <div class="col-12">
+          
+            <a id="highScore" class="link" href="highScore.html" >View Highscores</a>
+
+            <div id="timer" class="justify-content-end">Time: 0</div>
+        </div>
+      </div>
  
   <div class="container">
     <div class="row justify-content-center">
       <div class="col-xl-12">
         <div class="jumbotron">
+            <div class="row d-flex justify-content-between p-4">             
+                
+            </div>
           <div id="questionContainer" class="hide">
-             <h1 class="display-4">Question</h1>                   
+             <h1 id="question" class="display-4">Question</h1>                   
               <hr class="my-4">
               <div id="answerButtons" class="btn-grid">
                 <button type="button" class="btn btn-outline-secondary btn-block">Answer 1</button>
@@ -40,4 +52,6 @@
   </div>
 
 </body>
+<script src="./assets/script/questions.js"></script>
+<script src="./assets/script/script.js"></script>
 </html
